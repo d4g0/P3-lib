@@ -8,4 +8,6 @@ All class code libs in a single plase
 -   Binary Search O(log(n))
 
 ### Sort
--   HeapSort 
+-   HeapSort            in-place           non-estable  
+-   QuickSort           in-place           non-stable  
+-   MergeSort           external-mem       stable

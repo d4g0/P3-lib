@@ -9,11 +9,11 @@ export function binarySearch(arr, key) {
     var half = 0;
     var result = -1;
 
-    while (min < max) {
+    while (min <= max) {
         half = Math.floor((min + max) / 2);
         if (arr[half] == key) {
             result = half;
-            return result;
+            break;
         }
         if (arr[half] < key) {
             min = half + 1;
