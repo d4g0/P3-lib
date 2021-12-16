@@ -6,5 +6,8 @@
   "scripts": {
     "dev": "nodemon index.mjs",
     "start": "node index.mjs"
+  },
+  "dependencies": {
+    "linked-list": "^3.0.1"
   }
 }
