@@ -1,8 +1,11 @@
-class MaxHeap {
+export class MaxHeap {
     constructor() {
         this.heap = [];
     }
 
+    size() {
+        return this.heap.length;
+    }
     parentIndex(index) {
         return Math.floor((index - 1) / 2);
     }
@@ -50,6 +53,10 @@ class MaxHeap {
         }
         return item;
     }
+
+    get(i) {
+        return this.heap[i];
+    }
 }
 
 
@@ -75,5 +82,5 @@ function testHeapSort() {
     console.log({ arr, sorted });
 }
 
-testHeapSort();
+// testHeapSort();
 

@@ -29,7 +29,7 @@ function testQuickSort() {
     console.log(quicksort(array.slice()));
     console.groupEnd()
 }
-testQuickSort();
+// testQuickSort();
 
 
 
